@@ -248,9 +248,6 @@
 	border-radius:10px;
 }
 
-.card:last-child{
-	flex-basis: 100%;
-}
 
 @media(max-width: 600px){
 .card{
@@ -323,6 +320,20 @@ th {
 
 .rate1:after{
 	width:20px;
+}
+
+@media(max-width: 600px){
+	.work{
+		flex-direction : column;
+		margin-left:0!important;
+	}
+	.sample,.portfolio-site img,.fortune-site img{
+		width:360px !important;
+		margin-bottom:20px;
+	}
+	.portfolio-site img{
+		.width:
+	}
 }
 
 .work{
