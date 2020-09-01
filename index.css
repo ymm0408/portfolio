@@ -272,7 +272,7 @@
 	margin-bottom:10px;
 }
 
-table{
+.skill{
 	width:100%;
 	margin-bottom:1rem;
 }
@@ -325,8 +325,22 @@ th {
 	width:20px;
 }
 
-.coming{
-	margin-top:100px;
+.work{
+	display:flex;
+	text-align:left;
+	margin-left:140px;
+}
+
+.portfolio-site{
+	margin-right:200px;
+}
+
+td{
+	padding:0 15px;
+}
+
+.sample{
+	width:400px;
 }
 
 footer{
