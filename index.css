@@ -338,8 +338,7 @@ th {
 
 .work{
 	display:flex;
-	text-align:left;
-	margin-left:140px;
+	justify-content: center;
 }
 
 .portfolio-site{
