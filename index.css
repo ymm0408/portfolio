@@ -341,16 +341,35 @@ th {
 	justify-content: center;
 }
 
+.work img{
+	display:block;
+}
+
 .portfolio-site{
 	margin-right:200px;
 }
 
 td{
 	padding:0 15px;
+	text-align: left;
+}
+
+.image{
+	display:flex;
 }
 
 .sample{
 	width:400px;
+}
+
+.sample2{
+	margin-top:50px;
+	width:800px;
+}
+
+.lp-site{
+	margin-top:50px;
+	flex-direction : column;
 }
 
 footer{
