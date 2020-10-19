@@ -331,9 +331,6 @@ th {
 		width:360px !important;
 		margin-bottom:20px;
 	}
-	.portfolio-site img{
-		.width:
-	}
 }
 
 .work{
@@ -358,6 +355,19 @@ td{
 	display:flex;
 }
 
+@media(max-width: 600px){
+	.image{
+	flex-direction : column;
+}
+	.sample2,.image img{
+	width:360px !important;
+	}
+	.other{
+	font-size:14px !important;
+	margin:10px 0 0 10px !important;
+}
+}
+
 .sample{
 	width:400px;
 }
@@ -370,6 +380,16 @@ td{
 .lp-site{
 	margin-top:50px;
 	flex-direction : column;
+}
+
+.other{
+	font-size:16px;
+	text-align:left;
+	margin:50px 0 0 80px;
+}
+
+.other li{
+	list-style: inside;
 }
 
 footer{
